@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c0e4;
+}
+.card{
+    width: 330px;
+    min-height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 70px ;
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0,0.24);
+    background-image:  linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: .1px;
+   
+}
+.card_person{
+    background-image: url('woman.png');
+    background-position: cover;
+    background-position: center;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 105px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+.card_name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card_media{
+    width : 100%;
+    margin-top:40px;
+    height: 90px;
+    border-top:1px solid #b3a2a2;
+    display: flex;
+    justify-content: center;
+}
+
+.car_icon{
+    width: 25%;
+    height:  100%;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+
+}
+.card_icon--facebook{
+    background-image: url('icon/facebook.svg');
+}
+.card_icon--facebook{
+    background-image: url('instagram.svg');
+}
+.card_icon--twitter{
+    background-image: url('twitter.svg');
+}

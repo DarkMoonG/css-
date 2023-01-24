@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin:50px;
+    color:aqua;
+   /* box-shadow:  offset-x offset-y blur spread color;*/
+   box-shadow: 20px 20px 0px 0; 
+}
+body{
+    background-color: brown;
+}
+.nootbook{
+    width: 350px;
+    height: 400px;
+    background-color: plum;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px white,
+    20px 20px rgba(221, 160, 221, 0.625);
+    padding-top: 1px;
+
+}
+.circle{
+    width:14px;
+    height: 14px;
+    background-color: white;
+    color:white;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 7px;
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px,
+    0 280px, 0 320px;
+    padding-top: .1px;
+    /*position: relative;*/
+}
+
+.line{
+    background-color: greenyellow;
+    color: greenyellow ;
+    width: 30px;
+    margin-top:4px;
+    margin-left: -20px;
+    height: 8px; 
+    top: 50%;
+    left:-20px;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    /*position: absolute;*/
+    box-shadow: 0 40px, 0 80px, 0 120px, 0 160px, 0 200px, 0 240px,
+    0 280px, 0 320px;;
+}

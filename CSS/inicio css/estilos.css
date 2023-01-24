@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.card{
+    background-color: aqua;
+    color: azure;
+    width: 200px;
+    height: 200px;
+    padding: 45px;
+    border: 5px solid chocolate;
+    /*ancho*/
+    /*max-width: 300px ;
+    min-width: 200px ;
+    /*alto pasa lo de width*/
+    /*padding: 50px;
+    /*padding propiedades*/
+    /*arriba , derecha, abajo , izquierda*/
+    border-width: 20px;
+    /*padding-top:20px ;
+    padding-right: 40px;
+    padding-bottom:60px;
+    padding-left:80px;
+    /*border: 3px solid black;
+    /*border-width, style, color*/
+    border-style: ridge;
+    /*double , dashed, dotted , groove , ridge*/
+    /*color del borde*/
+    border-top-color:aqua;
+    /*y las propiedades anteriores de padding*/
+}
+
+.card--one{
+    margin: 50px;
+    /*los margenes auto solo funcionan de manera horizontal*/
+}
+.card_title{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /*para poner un margin auto necesito estar en bloque y tener un
+    width definido*/
+    margin: 0 auto;
+}
+.card_paragrah{
+    margin-bottom: 30px;
+}
+
+/*colapso de margenes
+cuando esto suceda  debemos colocar un padding a la clase padre*/
+/*.main{
+
+
+    background-color: steelblue;
+    color: white;
+    padding: 1.0px;
+}
+
+.main_title{
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: slateblue;
+    color:white;
+}*/
+
+/*display: block , los elementos bloque ocupan la pantalla completa*/
+/*como centrar un elemento de bloque inline-block , with definido y margin*/
+/*display:inline*/
+
+.title{
+    background-color: aqua;
+    width: 300px;
+    margin:0 auto;
+}
+
+.btn{
+    background-color: rgb(255, 187, 71);
+    color: white;
+    text-decoration: none;
+    padding:15px 0;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 40px;
+    /*display: inline-block hace las funciones en linea de un bloque
+    osea puedes usasr width y heigth de la forma usual*/
+   /* display: inline-block;
+    padding-top: 80px;*/
+}
+
+/*manipulando los elementos ya aprendidos en una card*/
+.cards{
+    background-color: burlywood;
+    color: white;
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px ;
+    text-align: center;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+.card_img{
+    width:100%;
+    height: 250px;
+    display: block;
+    border-radius: inherit;
+    object-fit: cover;
+
+}
+.card_title{
+    font-style: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px ;
+}
+.card_paragaph{
+    color:gray;
+}
+.card_cta{
+    text-decoration: none;
+    background-color: white;
+    display: block;
+    color:burlywood ;
+    margin-top: 20px;
+    padding:15px 0 ;
+    font-weight: 100;
+    border-radius: 15px;
+}

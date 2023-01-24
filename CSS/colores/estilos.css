@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.container{
+    height: 500px;
+    background-color:royalblue ;
+    margin: 50px auto;
+    width: 90%;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    /*top-left-rigth-bottom-center
+    x- horizontal y- vertical*/
+    /*background-size: cover;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.304),rgba(255, 0, 0, 0.589)), url(descarga.png);
+
+}
